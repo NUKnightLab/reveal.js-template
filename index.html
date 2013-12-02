@@ -11,11 +11,11 @@
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<link rel="shortcut icon" href="http://knightlab.northwestern.edu/wp-content/themes/responsive-kl-child-theme/favicon.ico">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="//cloud.webtype.com/css/d4767ecb-457a-4677-8761-72f890add836.css">
-
 		<link rel="stylesheet" href="css/reveal.min.css">
 		<link rel="stylesheet" href="css/theme/knightlab.css" id="theme">
 
@@ -39,10 +39,10 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1 class="knight">Knight Lab</h1>
-					<h2 class="intro">An Undergraduate Experience</h2>
+					<h1>Reveal.js</h1>
+					<h3>HTML Presentations Made Easy</h3>
 					<p>
-						<small>by <a href="http://twitter.com/tylrfishr">Tyler Fisher</a></small>
+						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
 					</p>
 				</section>
 
@@ -283,7 +283,7 @@ function linkify( selector ) {
 				</section>
 
 				<section>
-					<section>
+					<section id="fragments">
 						<h2>Fragmented Views</h2>
 						<p>Hit the next arrow...</p>
 						<p class="fragment">... to step through ...</p>
@@ -307,6 +307,8 @@ function linkify( selector ) {
 						<p class="fragment highlight-red">highlight-red</p>
 						<p class="fragment highlight-green">highlight-green</p>
 						<p class="fragment highlight-blue">highlight-blue</p>
+						<p class="fragment current-visible">current-visible</p>
+						<p class="fragment highlight-current-blue">highlight-current-blue</p>
 					</section>
 				</section>
 
@@ -366,7 +368,11 @@ function linkify( selector ) {
 				center: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [

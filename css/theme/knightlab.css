@@ -10,7 +10,7 @@ body {
   background-image: url("../../img/diamond.png");
   background-repeat: no-repeat;
   background-size: 350px 350px;
-  background-position: -160px 50%;
+  background-position: -160px 45%;
   background-attachment: fixed;
   background-color: white; }
 
@@ -146,6 +146,32 @@ hr {
   border: 0;
   border-top: 4px double #eee; }
 
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  text-shadow: none !important;
+  letter-spacing: inherit !important; }
+
+.reveal h1 {
+  font-size: 117px; }
+
+.reveal h2 {
+  font-size: 90px; }
+
+.reveal h3 {
+  font-size: 60px; }
+
+.reveal h4 {
+  font-size: 48px; }
+
+.reveal h5 {
+  font-size: 36px; }
+
+.reveal h6 {
+  font-size: 24px; }
+
+.reveal section img {
+  border: none;
+  box-shadow: none; }
+
 h2.intro {
   clear: both;
   color: #CA5529;
@@ -162,6 +188,12 @@ h2.intro {
   max-width: 1140px;
   text-indent: 0; }
 
-.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-  text-shadow: none !important;
-  letter-spacing: inherit !important; }
+html.cello body {
+  background: url("../../img/cello.png");
+  background-position: center;
+  background-size: 100%; }
+
+html.title body {
+  background-image: none; }
+  html.title body h1, html.title body h2, html.title body h3, html.title body h4, html.title body h5, html.title body h6 {
+    color: white; }

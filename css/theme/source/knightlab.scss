@@ -58,7 +58,7 @@ $selectionColor: #fff;
     background-image: url('../../img/diamond.png');
     background-repeat: no-repeat;
     background-size: 350px 350px;
-    background-position: -160px 50%;
+    background-position: -160px 45%;
     background-attachment: fixed;
 }
 
@@ -88,6 +88,38 @@ hr {
     border: 0;
     border-top: 4px double #eee;
 }
+// reveal overrides
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  text-shadow: none !important;
+  letter-spacing: inherit !important;
+}
+
+.reveal h1 {
+  font-size: 117px
+}
+.reveal h2 {
+  font-size: 90px
+}
+.reveal h3 {
+  font-size: 60px
+}
+.reveal h4 {
+  font-size: 48px
+}
+.reveal h5 {
+  font-size: 36px
+}
+.reveal h6 {
+  font-size: 24px
+}
+
+.reveal section img {
+  border: none;
+  box-shadow: none;
+}
+
+// helpers
 
 h2.intro {
   clear: both;
@@ -106,9 +138,15 @@ h2.intro {
   text-indent: 0;
 }
 
-// reveal overrides
+html.cello body {
+  background:url("../../img/cello.png");
+  background-position:center;
+  background-size: 100%;
+}
 
-.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-  text-shadow: none !important;
-  letter-spacing: inherit !important;
+html.title body {
+  background-image: none;
+  h1,h2,h3,h4,h5,h6 {
+    color: white;
+  }
 }

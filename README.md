@@ -8,9 +8,10 @@ The **basic setup** is for authoring presentations only. The **full setup** give
 
 The core of reveal.js is very easy to install. You'll simply need to download a copy of this repository and open the index.html file directly in your browser.
 
-1. Clone this repo.
-2. Open index.html in a browser to view it (note: run a local server for the custom Knight Lab typography to work).
-3. Edit the slides in index.html with your own content.
+1. Fork this repo.
+2. Clone the forked repo to your local machine and use this new repo for your own presentation.
+3. Open index.html in a browser to view it (note: run a local server for the custom Knight Lab typography to work).
+4. Edit the slides in index.html with your own content.
 
 
 ### Full setup
